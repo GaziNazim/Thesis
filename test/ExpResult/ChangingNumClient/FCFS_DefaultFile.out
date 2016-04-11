@@ -1,0 +1,507 @@
+The environment parameters are as bellows:
+
+IATM= 20; DBSIZE = 1000 ; NUMCLIENT = 100 ; THETA = 0.60,CACHESIZE=60, BstCycle= 1 
+DNMIN = 1 ; DNMAX = 1; LMIN = 120.00 ; LMAX = 200.00
+The Current Time is : 24914.01, the Broacast Number is : 24667
+
+         C++/CSIM Simulation Report (Version 19.0 for MS Visual C/C++)
+
+                                  ADC-realtime
+
+                           Thu Feb 12 23:11:11 2015
+
+
+                     Ending simulation time:     24914.012
+                     Elapsed simulation time:    24914.012
+                     CPU time used (seconds):      920.477
+
+
+
+
+TABLE 1:  deadline miss ratio
+
+      minimum         0.000000          mean                    0.023203
+      maximum         0.025313          variance                0.000007
+      range           0.025313          standard deviation      0.002629
+      observations       48924          coefficient of var      0.113300
+
+      results of run length control using confidence intervals
+
+      > insufficient observations to compute confidence intervals
+
+TABLE 2:  encode number
+
+      minimum         1.000000          mean                    1.823529
+      maximum         5.000000          variance                0.290798
+      range           4.000000          standard deviation      0.539257
+      observations       24667          coefficient of var      0.295722
+
+      confidence intervals for the mean after 24600 observations
+
+      level                confidence interval                rel. error
+
+       90 %    1.825407 +/- 0.011076 = [1.814330, 1.836483]    0.006105
+       95 %    1.825407 +/- 0.013213 = [1.812193, 1.838620]    0.007291
+       98 %    1.825407 +/- 0.015708 = [1.809698, 1.841115]    0.008680
+
+TABLE 3:  Response Time
+
+      minimum         1.000002          mean                   46.330253
+      maximum       172.768024          variance             1728.962171
+      range         171.768022          standard deviation     41.580791
+      observations       48924          coefficient of var      0.897487
+
+      confidence intervals for the mean after 48900 observations
+
+      level                confidence interval                rel. error
+
+       90 %    46.351025 +/- 0.385213 = [45.965813, 46.736238]    0.008380
+       95 %    46.351025 +/- 0.459278 = [45.891747, 46.810304]    0.010008
+       98 %    46.351025 +/- 0.545556 = [45.805470, 46.896581]    0.011910
+
+TABLE 4:  Stretch
+
+      minimum         1.000002          mean                   46.330253
+      maximum       172.768024          variance             1728.962171
+      range         171.768022          standard deviation     41.580791
+      observations       48924          coefficient of var      0.897487
+
+      confidence intervals for the mean after 48900 observations
+
+      level                confidence interval                rel. error
+
+       90 %    46.351025 +/- 0.385213 = [45.965813, 46.736238]    0.008380
+       95 %    46.351025 +/- 0.459278 = [45.891747, 46.810304]    0.010008
+       98 %    46.351025 +/- 0.545556 = [45.805470, 46.896581]    0.011910
+
+Deadline Missed Number = 1076;
+Deadline Satisfied Number = 48924;
+Deadline Miss Rate = 0.022;
+average productivity per broadcast = 1.9834
+Request Data Item Number = 50000;
+Broadcast Data Item Number = 24667;
+The environment parameters are as bellows:
+
+IATM= 20; DBSIZE = 1000 ; NUMCLIENT = 150 ; THETA = 0.60,CACHESIZE=60, BstCycle= 1 
+DNMIN = 1 ; DNMAX = 1; LMIN = 120.00 ; LMAX = 200.00
+The Current Time is : 30187.17, the Broacast Number is : 29890
+
+         C++/CSIM Simulation Report (Version 19.0 for MS Visual C/C++)
+
+                                  ADC-realtime
+
+                           Thu Feb 12 23:56:49 2015
+
+
+                     Ending simulation time:     30187.169
+                     Elapsed simulation time:    30187.169
+                     CPU time used (seconds):     2738.004
+
+
+
+
+TABLE 1:  deadline miss ratio
+
+      minimum         0.000000          mean                    0.067598
+      maximum         0.069612          variance                0.000033
+      range           0.069612          standard deviation      0.005782
+      observations       69990          coefficient of var      0.085536
+
+      results of run length control using confidence intervals
+
+      > insufficient observations to compute confidence intervals
+
+TABLE 2:  encode number
+
+      minimum         1.000000          mean                    2.037437
+      maximum         5.000000          variance                0.279471
+      range           4.000000          standard deviation      0.528650
+      observations       29890          coefficient of var      0.259468
+
+      confidence intervals for the mean after 29800 observations
+
+      level                confidence interval                rel. error
+
+       90 %    2.040336 +/- 0.011632 = [2.028704, 2.051967]    0.005734
+       95 %    2.040336 +/- 0.013873 = [2.026462, 2.054209]    0.006846
+       98 %    2.040336 +/- 0.016488 = [2.023848, 2.056824]    0.008147
+
+TABLE 3:  Response Time
+
+      minimum         1.000009          mean                   51.607713
+      maximum       200.949465          variance             1877.143601
+      range         199.949455          standard deviation     43.326015
+      observations       69990          coefficient of var      0.839526
+
+      confidence intervals for the mean after 69800 observations
+
+      level                confidence interval                rel. error
+
+       90 %    51.726933 +/- 0.329023 = [51.397911, 52.055956]    0.006401
+       95 %    51.726933 +/- 0.392377 = [51.334556, 52.119310]    0.007644
+       98 %    51.726933 +/- 0.466238 = [51.260695, 52.193172]    0.009095
+
+TABLE 4:  Stretch
+
+      minimum         1.000009          mean                   51.607713
+      maximum       200.949465          variance             1877.143601
+      range         199.949455          standard deviation     43.326015
+      observations       69990          coefficient of var      0.839526
+
+      confidence intervals for the mean after 69800 observations
+
+      level                confidence interval                rel. error
+
+       90 %    51.726933 +/- 0.329023 = [51.397911, 52.055956]    0.006401
+       95 %    51.726933 +/- 0.392377 = [51.334556, 52.119310]    0.007644
+       98 %    51.726933 +/- 0.466238 = [51.260695, 52.193172]    0.009095
+
+Deadline Missed Number = 5010;
+Deadline Satisfied Number = 69990;
+Deadline Miss Rate = 0.067;
+average productivity per broadcast = 2.3416
+Request Data Item Number = 75000;
+Broadcast Data Item Number = 29890;
+The environment parameters are as bellows:
+
+IATM= 20; DBSIZE = 1000 ; NUMCLIENT = 200 ; THETA = 0.60,CACHESIZE=60, BstCycle= 1 
+DNMIN = 1 ; DNMAX = 1; LMIN = 120.00 ; LMAX = 200.00
+The Current Time is : 34810.01, the Broacast Number is : 34466
+
+         C++/CSIM Simulation Report (Version 19.0 for MS Visual C/C++)
+
+                                  ADC-realtime
+
+                           Fri Feb 13 01:38:18 2015
+
+
+                     Ending simulation time:     34810.012
+                     Elapsed simulation time:    34810.012
+                     CPU time used (seconds):     6089.036
+
+
+
+
+TABLE 1:  deadline miss ratio
+
+      minimum         0.000000          mean                    0.107017
+      maximum         0.109601          variance                0.000069
+      range           0.109601          standard deviation      0.008309
+      observations       89481          coefficient of var      0.077644
+
+      results of run length control using confidence intervals
+
+      > insufficient observations to compute confidence intervals
+
+TABLE 2:  encode number
+
+      minimum         0.000000          mean                    2.134422
+      maximum         5.000000          variance                0.335303
+      range           5.000000          standard deviation      0.579054
+      observations       34466          coefficient of var      0.271293
+
+      confidence intervals for the mean after 34400 observations
+
+      level                confidence interval                rel. error
+
+       90 %    2.136541 +/- 0.010556 = [2.125985, 2.147097]    0.004965
+       95 %    2.136541 +/- 0.012589 = [2.123952, 2.149130]    0.005927
+       98 %    2.136541 +/- 0.014959 = [2.121582, 2.151500]    0.007051
+
+TABLE 3:  Response Time
+
+      minimum         1.000012          mean                   57.900479
+      maximum       199.034850          variance             2384.742491
+      range         198.034837          standard deviation     48.833825
+      observations       89481          coefficient of var      0.843410
+
+      confidence intervals for the mean after 89400 observations
+
+      level                confidence interval                rel. error
+
+       90 %    57.945800 +/- 0.358261 = [57.587539, 58.304062]    0.006221
+       95 %    57.945800 +/- 0.427168 = [57.518632, 58.372969]    0.007427
+       98 %    57.945800 +/- 0.507452 = [57.438348, 58.453253]    0.008835
+
+TABLE 4:  Stretch
+
+      minimum         1.000012          mean                   57.900479
+      maximum       199.034850          variance             2384.742491
+      range         198.034837          standard deviation     48.833825
+      observations       89481          coefficient of var      0.843410
+
+      confidence intervals for the mean after 89400 observations
+
+      level                confidence interval                rel. error
+
+       90 %    57.945800 +/- 0.358261 = [57.587539, 58.304062]    0.006221
+       95 %    57.945800 +/- 0.427168 = [57.518632, 58.372969]    0.007427
+       98 %    57.945800 +/- 0.507452 = [57.438348, 58.453253]    0.008835
+
+Deadline Missed Number = 10519;
+Deadline Satisfied Number = 89481;
+Deadline Miss Rate = 0.105;
+average productivity per broadcast = 2.5962
+Request Data Item Number = 100000;
+Broadcast Data Item Number = 34466;
+The environment parameters are as bellows:
+
+IATM= 20; DBSIZE = 1000 ; NUMCLIENT = 250 ; THETA = 0.60,CACHESIZE=60, BstCycle= 1 
+DNMIN = 1 ; DNMAX = 1; LMIN = 120.00 ; LMAX = 200.00
+The Current Time is : 37000.13, the Broacast Number is : 36632
+
+         C++/CSIM Simulation Report (Version 19.0 for MS Visual C/C++)
+
+                                  ADC-realtime
+
+                           Fri Feb 13 04:40:04 2015
+
+
+                     Ending simulation time:     37000.128
+                     Elapsed simulation time:    37000.128
+                     CPU time used (seconds):    10905.433
+
+
+
+
+TABLE 1:  deadline miss ratio
+
+      minimum         0.000000          mean                    0.159953
+      maximum         0.162192          variance                0.000136
+      range           0.162192          standard deviation      0.011656
+      observations      105322          coefficient of var      0.072870
+
+      results of run length control using confidence intervals
+
+      cpu time limit   10000.0          accuracy requested      0.050000
+      cpu time used    10905.4          accuracy achieved       0.011999
+
+      > the requested accuracy has been achieved          
+
+      95.0% confidence interval: 0.159964 +/- 0.001897 = [0.158067, 0.161860]
+
+TABLE 2:  encode number
+
+      minimum         0.000000          mean                    2.211591
+      maximum         5.000000          variance                0.370696
+      range           5.000000          standard deviation      0.608848
+      observations       36632          coefficient of var      0.275299
+
+      confidence intervals for the mean after 36600 observations
+
+      level                confidence interval                rel. error
+
+       90 %    2.212787 +/- 0.010837 = [2.201950, 2.223624]    0.004922
+       95 %    2.212787 +/- 0.012923 = [2.199864, 2.225710]    0.005875
+       98 %    2.212787 +/- 0.015355 = [2.197432, 2.228142]    0.006988
+
+TABLE 3:  Response Time
+
+      minimum         1.000008          mean                   56.569111
+      maximum       200.864087          variance             2568.175032
+      range         199.864079          standard deviation     50.677165
+      observations      105322          coefficient of var      0.895845
+
+      confidence intervals for the mean after 105200 observations
+
+      level                confidence interval                rel. error
+
+       90 %    56.625110 +/- 0.348164 = [56.276945, 56.973274]    0.006187
+       95 %    56.625110 +/- 0.415090 = [56.210020, 57.040199]    0.007385
+       98 %    56.625110 +/- 0.493038 = [56.132072, 57.118148]    0.008784
+
+TABLE 4:  Stretch
+
+      minimum         1.000008          mean                   56.569111
+      maximum       200.864087          variance             2568.175032
+      range         199.864079          standard deviation     50.677165
+      observations      105322          coefficient of var      0.895845
+
+      confidence intervals for the mean after 105200 observations
+
+      level                confidence interval                rel. error
+
+       90 %    56.625110 +/- 0.348164 = [56.276945, 56.973274]    0.006187
+       95 %    56.625110 +/- 0.415090 = [56.210020, 57.040199]    0.007385
+       98 %    56.625110 +/- 0.493038 = [56.132072, 57.118148]    0.008784
+
+Deadline Missed Number = 19678;
+Deadline Satisfied Number = 105322;
+Deadline Miss Rate = 0.157;
+average productivity per broadcast = 2.8751
+Request Data Item Number = 125000;
+Broadcast Data Item Number = 36632;
+The environment parameters are as bellows:
+
+IATM= 20; DBSIZE = 1000 ; NUMCLIENT = 300 ; THETA = 0.60,CACHESIZE=60, BstCycle= 1 
+DNMIN = 1 ; DNMAX = 1; LMIN = 120.00 ; LMAX = 200.00
+The Current Time is : 37866.17, the Broacast Number is : 37487
+
+         C++/CSIM Simulation Report (Version 19.0 for MS Visual C/C++)
+
+                                  ADC-realtime
+
+                           Fri Feb 13 09:25:06 2015
+
+
+                     Ending simulation time:     37866.168
+                     Elapsed simulation time:    37866.168
+                     CPU time used (seconds):    17101.998
+
+
+
+
+TABLE 1:  deadline miss ratio
+
+      minimum         0.000000          mean                    0.204813
+      maximum         0.208304          variance                0.000230
+      range           0.208304          standard deviation      0.015182
+      observations      119704          coefficient of var      0.074125
+
+      results of run length control using confidence intervals
+
+      cpu time limit   10000.0          accuracy requested      0.050000
+      cpu time used    17102.0          accuracy achieved       0.015040
+
+      > the requested accuracy has been achieved          
+
+      95.0% confidence interval: 0.204834 +/- 0.003035 = [0.201799, 0.207870]
+
+TABLE 2:  encode number
+
+      minimum         0.000000          mean                    2.279830
+      maximum         6.000000          variance                0.404380
+      range           6.000000          standard deviation      0.635909
+      observations       37487          coefficient of var      0.278928
+
+      confidence intervals for the mean after 37400 observations
+
+      level                confidence interval                rel. error
+
+       90 %    2.282513 +/- 0.011266 = [2.271247, 2.293780]    0.004960
+       95 %    2.282513 +/- 0.013435 = [2.269078, 2.295948]    0.005921
+       98 %    2.282513 +/- 0.015963 = [2.266551, 2.298476]    0.007043
+
+TABLE 3:  Response Time
+
+      minimum         1.000005          mean                   52.205794
+      maximum       200.022328          variance             2358.067880
+      range         199.022323          standard deviation     48.559941
+      observations      119704          coefficient of var      0.930164
+
+      confidence intervals for the mean after 119600 observations
+
+      level                confidence interval                rel. error
+
+       90 %    52.246048 +/- 0.293239 = [51.952808, 52.539287]    0.005644
+       95 %    52.246048 +/- 0.349584 = [51.896464, 52.595631]    0.006736
+       98 %    52.246048 +/- 0.415193 = [51.830854, 52.661241]    0.008011
+
+TABLE 4:  Stretch
+
+      minimum         1.000005          mean                   52.205794
+      maximum       200.022328          variance             2358.067880
+      range         199.022323          standard deviation     48.559941
+      observations      119704          coefficient of var      0.930164
+
+      confidence intervals for the mean after 119600 observations
+
+      level                confidence interval                rel. error
+
+       90 %    52.246048 +/- 0.293239 = [51.952808, 52.539287]    0.005644
+       95 %    52.246048 +/- 0.349584 = [51.896464, 52.595631]    0.006736
+       98 %    52.246048 +/- 0.415193 = [51.830854, 52.661241]    0.008011
+
+Deadline Missed Number = 30296;
+Deadline Satisfied Number = 119704;
+Deadline Miss Rate = 0.202;
+average productivity per broadcast = 3.1932
+Request Data Item Number = 150000;
+Broadcast Data Item Number = 37487;
+The environment parameters are as bellows:
+
+IATM= 20; DBSIZE = 1000 ; NUMCLIENT = 350 ; THETA = 0.60,CACHESIZE=60, BstCycle= 1 
+DNMIN = 1 ; DNMAX = 1; LMIN = 120.00 ; LMAX = 200.00
+The Current Time is : 39303.80, the Broacast Number is : 38911
+
+         C++/CSIM Simulation Report (Version 19.0 for MS Visual C/C++)
+
+                                  ADC-realtime
+
+                           Sat Feb 14 06:14:28 2015
+
+
+                     Ending simulation time:     39303.799
+                     Elapsed simulation time:    39303.799
+                     CPU time used (seconds):    20100.490
+
+
+
+
+TABLE 1:  deadline miss ratio
+
+      minimum         0.000000          mean                    0.224192
+      maximum         0.227559          variance                0.000247
+      range           0.227559          standard deviation      0.015702
+      observations      136073          coefficient of var      0.070040
+
+      results of run length control using confidence intervals
+
+      cpu time limit   10000.0          accuracy requested      0.050000
+      cpu time used    20100.5          accuracy achieved       0.013019
+
+      > the requested accuracy has been achieved          
+
+      95.0% confidence interval: 0.224193 +/- 0.002881 = [0.221312, 0.227074]
+
+TABLE 2:  encode number
+
+      minimum         0.000000          mean                    2.321092
+      maximum         6.000000          variance                0.450791
+      range           6.000000          standard deviation      0.671410
+      observations       38911          coefficient of var      0.289265
+
+      confidence intervals for the mean after 38900 observations
+
+      level                confidence interval                rel. error
+
+       90 %    2.321517 +/- 0.011781 = [2.309735, 2.333298]    0.005101
+       95 %    2.321517 +/- 0.014049 = [2.307468, 2.335566]    0.006088
+       98 %    2.321517 +/- 0.016691 = [2.304825, 2.338208]    0.007242
+
+TABLE 3:  Response Time
+
+      minimum         1.000002          mean                   52.356056
+      maximum       200.121257          variance             2260.326098
+      range         199.121255          standard deviation     47.542887
+      observations      136073          coefficient of var      0.908069
+
+      confidence intervals for the mean after 136000 observations
+
+      level                confidence interval                rel. error
+
+       90 %    52.380985 +/- 0.239373 = [52.141612, 52.620358]    0.004591
+       95 %    52.380985 +/- 0.285351 = [52.095634, 52.666336]    0.005477
+       98 %    52.380985 +/- 0.338878 = [52.042107, 52.719863]    0.006512
+
+TABLE 4:  Stretch
+
+      minimum         1.000002          mean                   52.356056
+      maximum       200.121257          variance             2260.326098
+      range         199.121255          standard deviation     47.542887
+      observations      136073          coefficient of var      0.908069
+
+      confidence intervals for the mean after 136000 observations
+
+      level                confidence interval                rel. error
+
+       90 %    52.380985 +/- 0.239373 = [52.141612, 52.620358]    0.004591
+       95 %    52.380985 +/- 0.285351 = [52.095634, 52.666336]    0.005477
+       98 %    52.380985 +/- 0.338878 = [52.042107, 52.719863]    0.006512
+
+Deadline Missed Number = 38927;
+Deadline Satisfied Number = 136073;
+Deadline Miss Rate = 0.222;
+average productivity per broadcast = 3.4970
+Request Data Item Number = 175000;
+Broadcast Data Item Number = 38911;

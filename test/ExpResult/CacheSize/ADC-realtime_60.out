@@ -1,0 +1,70 @@
+The environment parameters are as bellows:
+
+IATM= 20; DBSIZE = 1000 ; NUMCLIENT = 1 ; THETA = 0.00,CACHESIZE=60, BstCycle= 1 
+DNMIN = 1 ; DNMAX = 1; LMIN = 120.00 ; LMAX = 200.00
+The Current Time is : 10.04, the Broacast Number is : 10
+
+         C++/CSIM Simulation Report (Version 19.0 for MS Visual C/C++)
+
+                                  ADC-realtime
+
+                           Thu Jan 31 19:59:58 2013
+
+
+                     Ending simulation time:        10.040
+                     Elapsed simulation time:       10.040
+                     CPU time used (seconds):        0.062
+
+
+
+
+TABLE 1:  deadline miss ratio
+
+      minimum         0.000000          mean                    0.000000
+      maximum         0.000000          variance                0.000000
+      range           0.000000          standard deviation      0.000000
+      observations           5          coefficient of var      0.000000
+
+      results of run length control using confidence intervals
+
+      > insufficient observations to compute confidence intervals
+
+TABLE 2:  encode number
+
+      minimum         0.000000          mean                    0.500000
+      maximum         1.000000          variance                0.277778
+      range           1.000000          standard deviation      0.527046
+      observations          10          coefficient of var      1.054093
+
+      confidence intervals for the mean after 0 observations
+
+      > insufficient observations to compute confidence intervals
+
+TABLE 3:  Response Time
+
+      minimum         1.964168          mean                    1.975292
+      maximum         1.991180          variance                0.000117
+      range           0.027011          standard deviation      0.010819
+      observations           5          coefficient of var      0.005477
+
+      confidence intervals for the mean after 0 observations
+
+      > insufficient observations to compute confidence intervals
+
+TABLE 4:  Stretch
+
+      minimum         2.219462          mean                    5.198280
+      maximum        15.224939          variance               31.676326
+      range          13.005477          standard deviation      5.628173
+      observations           5          coefficient of var      1.082699
+
+      confidence intervals for the mean after 0 observations
+
+      > insufficient observations to compute confidence intervals
+
+Deadline Missed Number = 0;
+Deadline Satisfied Number = 5;
+Deadline Miss Rate = 0.000;
+average productivity per broadcast = 0.5000
+Request Data Item Number = 5;
+Broadcast Data Item Number = 10;
