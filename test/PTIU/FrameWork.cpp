@@ -1240,8 +1240,8 @@ void ChooseData()
 	//Pri=RW_Weight(vec,subvex); //RW implementation
 	//Pri=EDF_Weight(vec,subvex); //EDF implementation
 	//Pri = SIN_Weight(vec,subvex);	//SIN implementation
-	Pri = LTSF_Weight(vec,subvex); //LTSF implementation 
-	//Pri = STOBS_Weight(vec,subvex); //STOBS implementation
+	//Pri = LTSF_Weight(vec,subvex); //LTSF implementation 
+	Pri = STOBS_Weight(vec,subvex); //STOBS implementation
 
 	if(Pri>MaxPri)
 	  {
@@ -1795,10 +1795,10 @@ void main(int argc, char* argv[])
 	requestList = fopen(trace, "w");
 #endif
 	//THETA = (atof)(argv[1]);
-	//CACHESIZE = (atoi)(argv[1]);
+	CACHESIZE = (atoi)(argv[1]);
 	//IATM = (atoi)(argv[1]);
 	//DBSIZE = (atoi)(argv[1]);
-	DWNSIZEMAX = (atoi)(argv[1]);
+	//DWNSIZEMAX = (atoi)(argv[1]);
 	//NUMCLIENT = (atoi)(argv[1]);
 
 	sim();

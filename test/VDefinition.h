@@ -123,10 +123,10 @@ void init_Unif();
 
 ///Simulation variables/////////
 //extern double THETA;
-//extern int CACHESIZE;
+extern int CACHESIZE;
 //extern int IATM;
 //extern long  DBSIZE;
-extern long DWNSIZEMAX;
+//extern long DWNSIZEMAX;
 extern double IATM;
 //extern long NUMCLIENT;
 #endif

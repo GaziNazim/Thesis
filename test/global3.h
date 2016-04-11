@@ -2,7 +2,7 @@
 
 
 //#define NRPC 300// number of arrivals to be simulated
-#define NRPC 400 // 400 number of arrivals to be simulated
+#define NRPC 400/2 // 400 number of arrivals to be simulated
 
 #define DNMIN 1
 #define DNMAX 1
@@ -13,16 +13,16 @@
 
 
 
-#define MaxDBSIZE 2000
-#define MaxNUMCLIENT 600
+#define MaxDBSIZE 2000/2
+#define MaxNUMCLIENT 600/2
 
 ////Simulation variables//////////
 #define THETA 0.6 // 0.6
-#define CACHESIZE  60
+//#define CACHESIZE  60
 //#define IATM 20// mean of inter-arrival time distribution
-#define DBSIZE 1000
-//#define DWNSIZEMAX 30 //30 //10
-#define NUMCLIENT 100 //300
+#define DBSIZE 1000/2
+#define DWNSIZEMAX 30 //30 //10
+#define NUMCLIENT 100/2 //300
 
 #define CYCLE 1
 #define LMIN  120.0            
@@ -75,15 +75,15 @@
 //#define MODULE_NAME "RW"
 //#define MODULE_NAME "EDF"
 //#define MODULE_NAME "SIN"
-#define MODULE_NAME "LTSF_TH"
-//#define MODULE_NAME "STOBS_TH"
+//#define MODULE_NAME "LTSF_TH"
+#define MODULE_NAME "STOBS_TH"
 
 
 //#define CATEGORY "ChangingTHETA"
-//#define CATEGORY "ChangingCacheSize"
+#define CATEGORY "ChangingCacheSize"
 //#define CATEGORY "ChangingArrivalRate"
 //#define CATEGORY "ChangingDBSIZE"
-#define CATEGORY "ChangingItemSize"
+//#define CATEGORY "ChangingItemSize"
 //#define CATEGORY "ChangingNumofClient"
 
 #define OUTFILE "..\\ExpResult\\%s\\%s_%s.out"
